@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/expense_fragment_menu_delete_person"
+        android:title="Delete Person"
+        android:icon="@drawable/ic_menu_moreoverflow_normal_holo_light">
+
+    </item>
+</menu>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@android:layout/list_content" />
+
+    <com.melnykov.fab.FloatingActionButton
+        android:id="@+id/fab_expense_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:src="@drawable/ic_add_white_36dp"
+        fab:fab_colorNormal="@color/PrimaryColor"
+        fab:fab_colorPressed="@color/PrimaryColorDark"
+        android:layout_margin="16dp"
+        />
+
+</FrameLayout>

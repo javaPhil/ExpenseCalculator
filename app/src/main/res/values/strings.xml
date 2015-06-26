@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Expense Calculator</string>
+    <string name="person_name">Name</string>
+    <string name="person_total_amount">Total Amount</string>
+    <string name="expense">Expense</string>
+    <string name="expense_list_fragment_title">Expense List</string>
+    <string name="list_item_expense_title">Expense Title</string>
+    <string name="list_item_expense_amount">Amount</string>
+    <string name="alert_person_name_title">Name</string>
+    <string name="alert_person_name_message">Enter a Name</string>
+    <string name="grand_total_amount">Grand Total:</string>
+    <string name="alert_expense_message">Enter the Title and amount spent</string>
+    <string name="alert_delete_person_title">Delete Person</string>
+    <string name="alert_delete_person_message">Are you sure?</string>
+    <string name="toast_delete_person_message">Person Deleted</string>
+    <string name="totals_page_group_total">Total Group Amount:</string>
+    <string name="totals_page_group_average">Average Amount: </string>
+</resources>
