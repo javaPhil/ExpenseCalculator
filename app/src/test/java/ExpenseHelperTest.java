@@ -2,17 +2,15 @@
  * Created by Philip on 6/26/2015.
  */
 
+import android.test.InstrumentationTestRunner;
 
 import com.javaphil.expensecalculator.*;
 import org.junit.Test;
 import org.junit.*;
 
+
 import java.math.BigDecimal;
 import java.util.ArrayList;
-
-/**
- * Created by Philip on 6/26/2015.
- */
 
 public class ExpenseHelperTest{
 
@@ -49,7 +47,7 @@ public class ExpenseHelperTest{
     }
 
     @Test
-    public void testCalculateAverage() throws Exception{
+    public void testCalculateAverage(){
         ArrayList<Person> personList = setup();
 
         BigDecimal expectedAverage = BigDecimal.valueOf(20.00);
